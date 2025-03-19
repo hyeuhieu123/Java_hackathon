@@ -30,7 +30,7 @@ public class Main {
                         CB.addCustomer(sc);
                     break;
                 case 3:
-
+                        CB.updateCustomer(sc);
 
                     break;
                 case 4:

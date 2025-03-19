@@ -113,19 +113,19 @@ public class Customer implements IApp{
         this.firstName=sc.nextLine();
         System.out.println("nhap ho kh");
         this.lastName=sc.nextLine();
-//        System.out.println("nhap ngay sinh kh");
-//        this.dateOfBirth=sc.nextLine();
-//        System.out.println("nhap gioi tinh");
-//        this.gender=Boolean.parseBoolean(sc.nextLine());
-//        System.out.println("nhap dia chi");
-//        this.address=sc.nextLine();
-//        System.out.println("nhap so dien thoai");
-//        this.phoneNumber=sc.nextLine();
-//
-//        System.out.println("nhap email");
-//        this.email=sc.nextLine();
-//        System.out.println("nhap loai kh");
-//        this.customerType=sc.nextLine();
+        System.out.println("nhap ngay sinh kh");
+        this.dateOfBirth=sc.nextLine();
+        System.out.println("nhap gioi tinh");
+        this.gender=Boolean.parseBoolean(sc.nextLine());
+        System.out.println("nhap dia chi");
+        this.address=sc.nextLine();
+        System.out.println("nhap so dien thoai");
+        this.phoneNumber=sc.nextLine();
+
+        System.out.println("nhap email");
+        this.email=sc.nextLine();
+        System.out.println("nhap loai kh");
+        this.customerType=sc.nextLine();
 
 
     }
